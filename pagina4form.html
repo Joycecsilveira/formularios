@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<HTML>
+    <head><title>Formulário covid-19</title></head>
+    <style>
+        body {
+           background-color:rgb(170, 210, 236)
+        }; 
+        </style>
+    <body>
+        <h1>Colabore com a Pesquisa Sobre os Impactos do Covid-19, no Brasil</h1>
+        <h2>Assinale a alternativa correspondente</h2> 
+        <form action="processa.html" method="post"> </form>
+        Nome de Usuário:<input type="text" name="login" size="25" value="Digite o nome do usuário"><br><br>
+        Senha:<input type="password" name="senha" maxlength="8" value="*******"> <br><br>
+        <input type="hidden" namme="codigoacesso" value="Código do Usuário">
+        <!--O valor do código acesso poderia ser uma variável proveniente de uma página web anteriormente acessada pelo usuário -->
+        <br><br>
+        <b style="color:blue;"><b>Qual é a sua idade?</b><br>
+            <input type="radio" name="idade?">Até 10 anos<br>
+            <input type="radio" name="idade?">Entre 10 e 20 anos<br>
+            <input type="radio" name="idade?">Entre 30 e 40 anos, ou mais<br>
+<br></br>
+<b style="color:blue"><b>Na sua opinião,como está sendo a conduzido os programas de contribuição ao distânciamento social, na sua cidade?</b>?</b><br>
+        <b style="color:#000">
+            <input type="radio" name="estadoAC">Acre<br>
+            <input type="radio" name="estadoAL">Alagoas<br>
+            <input type="radio" name="estado AP">Amapá<br>
+            <input type="radio" name="estado AM">Amazonas<br>
+            <input type="radio" name="estado BA">Bahia<br>
+            <input type="radio" name="estado CE">Ceará<br>
+            <input type="radio" name="estado ES">Espírito Santo<br>
+            <input type="radio" name="estado GO">Goiás<br>
+            <input type="radio" name="estado MA">Maranhão<br>
+            <input type="radio" name="estado MS">Mato Grosso do Sul<br>
+            <input type="radio" name="estado MG">Minas Gerais<br>
+            <input type="radio" name="estado MT">Mato Grosso<br>
+            <input type="radio" name="estado PA">Pará<br>
+            <input type="radio" name="estado PB">Paraíba<br>
+            <input type="radio" name="estado PR">Paraná<br>
+            <input type="radio" name="estado PE">Pernambuco<br>
+            <input type="radio" name="estado PI">Piauí<br>
+            <input type="radio" name="estado RJ">Rio de Janeiro<br>
+            <input type="radio" name="estado RN">Rio Grande do Norte<br>
+            <input type="radio" name="estado RS">Rio Grande do Sul<br>
+            <input type="radio" name="estado RO">Rondônia<br>
+            <input type="radio" name="estado RR">Roraima<br>
+            <input type="radio" name="estado SC">Santa Catarina<br>
+            <input type="radio" name="estado SP">São Paulo<br>
+            <input type="radio" name="estado TO">Tocantins<br>
+            <input type="radio" name="estado DF">Distrito Federal<br>
+            <input type="radio" name="estado SE">Sergipe<br>
+            </b>
+        <br><br>
+        <b style="color:blue"><b>Na sua opinião,como está sendo a conduzido os programas de contribuição ao distânciamento social, na sua cidade?</b>?</b><br>
+        <b style="color:#000">
+        <input type="checkbox" name="Razoavel">Razoavel<br>
+        <input type="checkbox" name="Bom">Bom<br>
+        <input type="checkbox" name="MusicaB">Ruim<br>
+        <input type="checkbox" name="MusicaJ">Não sei opinar<br>
+        </b>
+        <br><br>
+        <input type="reset" value="Limpar Dados">
+        <input type="submit" value="Enviar Dados">
+        <input type="button" value="Acessar Sistema" onclick="Valida()">
+    </form><hr>
+    </body>
+</HTML>
